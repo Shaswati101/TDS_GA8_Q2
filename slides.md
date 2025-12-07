@@ -6,7 +6,7 @@ theme: default
 class: mybg
 style: |
   section.mybg {
-    background-image: url('./image/my_img.jpg');
+    background-image: url('./my_img.jpg');
     background-size: cover;
     background-position: center;
     }
