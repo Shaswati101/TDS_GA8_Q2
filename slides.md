@@ -1,24 +1,75 @@
 ---
 marp: true
-title: My First Presentation
+title: Custom Marp Presentation
 author: 22f2001495@ds.study.iitm.ac.in
-theme: default
-class: mybg
-style: |
-  section.mybg {
-    background-image: url('./my_img.jpg');
-    background-size: cover;
-    background-position: center;
-    }
 paginate: true
----
-
-<!-- color: White -->
-
-# Hello World
-This is my first slide
+theme: mytheme
+class: invert
 
 ---
 
-# Let's Do Math Under the Starry Skies
-$10+20 = 30$
+# My Marp Presentation  
+### by 22f2001495@ds.study.iitm.ac.in
+
+Welcome to a custom-themed Marp slide deck.
+
+---
+
+<!-- Background image -->
+
+![bg](./images/my_img.jpg)
+
+# Slide with Background Image
+
+This slide uses a **full background image**.  
+Ensure `./images/my_img.jpg` is in the same folder.
+
+---
+
+# Algorithmic Complexity
+
+You can include mathematical expressions:
+
+Inline math:  
+`$O(\log n)$` is logarithmic,  
+`$O(n^2)$` is quadratic.
+
+Block math:
+
+$$
+T(n) = T\left(\frac{n}{2}\right) + O(1)
+$$
+
+This solves to:
+
+$$
+T(n) = O(\log n)
+$$
+
+---
+
+# Custom Theme Definition
+
+Below is the custom theme used in this presentation.
+
+```css
+/* mytheme.css */
+@charset "UTF-8";
+
+section {
+  background-color: #111;
+  color: #fff;
+}
+
+section.invert {
+  background-color: #eee;
+  color: #000;
+}
+
+h1, h2, h3 {
+  letter-spacing: 0.5px;
+}
+
+footer {
+  color: #bbb;
+}
