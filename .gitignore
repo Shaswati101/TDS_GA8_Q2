@@ -1,0 +1,11 @@
+
+# Python
+*.py
+__pycache__/
+
+# Excel
+*.xlsx
+*.xls
+
+# Others
+.DS_Store
