@@ -19,10 +19,9 @@ Welcome to a custom-themed Marp slide deck.
 
 ![bg](./images/my_img.jpg)
 
-# Slide with Background Image
+# Starry Starry Nights
 
-This slide uses a **full background image**.  
-Ensure `./images/my_img.jpg` is in the same folder.
+This is a famous painting by the **Vincent Van Gough**
 
 ---
 
